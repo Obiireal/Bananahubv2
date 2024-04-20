@@ -2491,9 +2491,9 @@ ToggleButton.BorderSizePixel = 0
 ToggleButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ToggleButton.Size = UDim2.new(0, 0, 0, 0)
 ToggleButton.Font = Enum.Font.SourceSans
-ToggleButton.Text = "Open Ui"
+ToggleButton.Text = "mở lại ui"
 ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-ToggleButton.TextSize = 14.000
+ToggleButton.TextSize = 0.000
 ToggleButton.Draggable = true
 ToggleButton.MouseButton1Click:Connect(function()
 	game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.RightShift,false,game)
@@ -3666,7 +3666,7 @@ TweenChest = M:AddToggle({
 
 M:AddToggle({
     Name = "dừng khi có cup hoặc key",
-    Default = false,
+    Default = true,
     Flag = "Stop Only Dark Key or God's Chalice",
     Save = true,
     Callback = function(Value)
